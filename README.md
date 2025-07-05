@@ -31,17 +31,17 @@ A RESTful API for tracking personal expenses and incomes with JWT authentication
    source venv/bin/activate  # Linux/Mac
    venv\Scripts\activate    # Windows
 
-3. Install dependencies:
+3.  Install dependencies:
     pip install -r requirements.txt
 
 
 4.	Configure database:
     python manage.py migrate
 
-5.	Create superuser
+5.	Create superuser:
 	python manage.py createsuperuser
    
-7.	Run the development server
+7.	Run the development server:
     python manage.py runserver
 
 
